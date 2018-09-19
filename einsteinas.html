@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Einsteinas</title>
+</head>
+<body>
+<div class="col-md-12 row">
+    <div class="col-md-4">
+        <div class="box">
+            <h2>Albert Einstein</h2>
+            <p>1879-1955</p>
+            <div class="context">
+                <div class="wrapper">
+                    <img class="pic" src="Albert-Einstein.jpg" alt="albert"/>
+                    <a href="#">
+                        <div class="icon"><img src="zoom.png"></div>
+                    </a>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint nim id est laborum</p>
+                <a href="#">Read more...</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="box">
+            <h2>Issac Newton</h2>
+            <p>1579-2055</p>
+            <div class="context">
+                <div class="wrapper">
+                    <img class="pic" src="isaac.jpeg" alt="albert"/>
+                    <a href="#">
+                        <div class="icon"><img src="zoom.png"></div>
+                    </a>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint nim id est laborum</p>
+
+                <a href="#">Read more...</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="box">
+            <h2>Tesla</h2>
+            <p>1879-2017</p>
+            <div class="context">
+                <div class="wrapper">
+                    <img class="pic" src="tesla.jpg" alt="albert"/>
+                    <a href="#">
+                        <div class="icon"><img src="zoom.png"></div>
+                    </a>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint nim id est laborum</p>
+                <a href="#">Read more...</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+<style>
+    html {
+        background-color: lightgray;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .col-md-12 {
+        padding: 20px;
+        background-color: lightgray;
+    }
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    h2 {
+        margin-bottom: 0;
+        color: blue;
+    }
+    .pic {
+        margin: 5px 15px 15px 0;
+        float: left;
+        height: 150px;
+        width: 120px;
+        position: relative;
+
+    }
+    .wrapper:hover .pic {
+        -webkit-filter: brightness(50%);
+        display: block;
+    }
+    p {
+        margin-bottom: 0;
+        padding-bottom: 15px;
+    }
+    .box {
+        border-top: 5px solid darkgrey;
+        background-color: #fff;
+        padding: 15px;
+    }
+    .box:hover {
+        padding: 10px 15px;
+        border-top: 5px solid blue;
+        transition: all 1.0s ease;
+        -webkit-transition: all 1.0s ease;
+
+    }
+    .icon {
+        display: none;
+        position: absolute;
+        margin: 30px;
+        float: left;
+
+    }
+    .wrapper:hover .icon {
+        display: block;
+
+    }
+</style>
